@@ -1,0 +1,119 @@
+//Style for blog.html
+
+//Banner (stretching)
+.stretching {
+    position: relative;
+    &__box {
+        width: 504px;
+        height: 178px;
+        background-color: $lightColor;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        position: absolute;
+        top: 200px;
+        left: 50%;
+        margin-left: -252px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    &__title {
+        color: $titleTextColor;
+        font-family: $fontFamilyTitle;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 125%; /* 62.5px */
+    }
+    &__links {
+        color: $mineTextColor;
+        font-family: $fontFamilyText;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 33px */
+        letter-spacing: 0.22px;
+    }
+}
+
+//Latest Post
+.latest-post {
+    margin-top: 200px;
+    &__title {
+        color: $titleTextColor;
+        font-family: $fontFamilyTitle;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 125%; /* 62.5px */
+        letter-spacing: 1px;
+        margin-bottom: 33px;
+    }
+    &__box {
+        display: flex;
+        gap: 65px;
+    }
+    &__item {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    &__subtitle {
+        color: $titleTextColor;
+        font-family: $fontFamilyTitle;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 125%; /* 31.25px */
+        letter-spacing: 0.5px;
+        margin-bottom: 22px;
+        /* margin-top: 70px; */
+    }
+    &__text {
+        color: $mineTextColor;
+        font-family: $fontFamilyText;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 33px */
+        letter-spacing: 0.22px;
+    }
+    &__date {
+        color: $mineTextColor;
+        font-family: $fontFamilyText;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 24px */
+        letter-spacing: 0.16px;
+        text-transform: capitalize;
+    }
+}
+
+//Pangination
+ul {
+    list-style-type: none;
+}
+
+.pagination {
+    &__box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    &__page-item {
+        width: 52px;
+        height: 52px;
+        border: 2px solid $secondColor;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__page-item:hover {
+        background-color: $secondColor;
+    }
+}
