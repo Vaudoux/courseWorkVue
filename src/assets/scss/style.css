@@ -34,6 +34,10 @@
   line-height: 150%; /* 33px */
   letter-spacing: 0.22px;
 }
+.stretching__banner {
+  display: flex;
+  justify-content: center;
+}
 
 .latest-post {
   margin-top: 200px;

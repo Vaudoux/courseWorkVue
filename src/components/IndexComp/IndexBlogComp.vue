@@ -12,7 +12,7 @@
           :key="item.id"
           class="blog__item"
         >
-          <img :src="blogImage" alt="photo" />
+          <img :src="item.blogImage" alt="photo" />
           <button class="blog__button">{{ item.blogButton }}</button>
           <div class="blog__subtitle">{{ item.blogSubtitle }}</div>
           <div class="item__box">

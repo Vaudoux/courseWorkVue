@@ -35,6 +35,10 @@
         line-height: 150%; /* 33px */
         letter-spacing: 0.22px;
     }
+    &__banner {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 //Latest Post
