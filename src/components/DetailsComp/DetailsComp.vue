@@ -1,10 +1,8 @@
 <template>
   <div>
     <HeaderComp />
-
     <DetailsBannerComp />
     <DetailsContentComp />
-
     <FooterComp />
   </div>
 </template>

@@ -45,14 +45,9 @@
 
       <div class="details__tags">
         <div class="details__tags-title">Tags</div>
+
         <div class="details__tags-buttons">
-          <button
-            @click="kitchen"
-            :class="{
-              'details__tags-button': true,
-              active: activeButton === 'kitchen',
-            }"
-          >
+          <button @click="kitchen" :class="{'details__tags-button': true, active: activeButton === 'kitchen',}">
             Kitchen
           </button>
           <button
