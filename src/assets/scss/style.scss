@@ -2,7 +2,7 @@
 @import "blog";
 @import "details";
 @import "project";
-
+@import "project-details";
 
 * {
     margin: 0;
@@ -105,7 +105,7 @@ a {
         border-radius: 18px;
         background-color: $titleTextColor;
         //Текст
-        color: #FFF;
+        color: #fff;
         text-align: center;
         font-family: $fontFamilyText;
         font-size: 18px;
@@ -233,14 +233,13 @@ a {
 
 // Blog
 .blog {
-    padding: 96px 0;  
+    padding: 96px 0;
     &__heading {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding-bottom: 52px;
-        
     }
     &__title {
         color: $titleTextColor;
@@ -382,5 +381,4 @@ a {
         align-items: flex-start;
         gap: 26px;
     }
-    
 }

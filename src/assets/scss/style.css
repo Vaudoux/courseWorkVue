@@ -409,6 +409,46 @@ ul.details__bread-crumbs li a:hover {
   color: #fff;
 }
 
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  overflow: hidden;
+}
+
+.swiper-zoom-image {
+  width: 1201px;
+  height: 799px;
+  border-radius: 100px;
+}
+
+.details-box {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-box {
+  font-family: DM Serif Display;
+  font-weight: 400;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.text-box {
+  font-family: "Jost";
+  max-width: 658px;
+  font-weight: 400px;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -507,7 +547,7 @@ a {
   height: 75px;
   border-radius: 18px;
   background-color: #292F36;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-family: "Jost";
   font-size: 18px;
