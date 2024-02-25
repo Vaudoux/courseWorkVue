@@ -449,6 +449,48 @@ ul.details__bread-crumbs li a:hover {
   margin-bottom: 20px;
 }
 
+.notfound__container {
+  display: flex;
+  flex-direction: row;
+}
+.notfound__title {
+  font-family: DM Serif Display;
+  font-weight: 400;
+  color: #CDA274;
+  font-size: 250px;
+}
+.notfound__text {
+  font-family: DM Serif Display;
+  font-weight: 400;
+  font-size: 35px;
+}
+.notfound__button {
+  width: 253px;
+  height: 75px;
+  background-color: #4D5053;
+  color: #fff;
+  font-family: "Jost";
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.notfound__button:active {
+  background-color: #fff;
+  color: #292F36;
+}
+.notfound__button:hover {
+  cursor: pointer;
+}
+.notfound__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 60px;
+}
+.notfound__image {
+  border-bottom-left-radius: 250px;
+}
+
 * {
   margin: 0;
   padding: 0;

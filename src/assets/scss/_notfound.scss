@@ -1,0 +1,44 @@
+.notfound {
+    &__container {
+        display: flex;
+        flex-direction: row;
+    }
+    &__title {
+        font-family: $fontFamilyTitle;
+        font-weight: 400;
+        color: $secondColor;
+        font-size: 250px;
+    }
+    &__text {
+        font-family: $fontFamilyTitle;
+        font-weight: 400;
+        font-size: 35px;
+    }
+    &__button {
+        width: 253px;
+        height: 75px;
+        background-color: $mineTextColor;
+        color: $lightColor;
+        font-family: $fontFamilyText;
+        font-weight: 600;
+        font-size: 18px;
+        border-radius: 20px;
+    }
+    &__button:active {
+        background-color: $lightColor;
+        color: $titleTextColor;
+    }
+    &__button:hover {
+        cursor: pointer;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 60px;
+    }
+    &__image {
+        border-bottom-left-radius: 250px;
+    }
+}
